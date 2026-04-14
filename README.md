@@ -1,1 +1,1 @@
-Ссылка на сайт https://kzn-start.rf.gd еще один сайт для изучения сео
+Ссылка на сайт https://kzn-start.infinityfreeapp.com еще один сайт для изучения сео
