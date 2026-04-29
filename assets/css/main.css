@@ -78,7 +78,7 @@ a:hover {
 
 .map {
     color: #000000;
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 
 .title-map {
@@ -91,6 +91,10 @@ a:hover {
 
 .title-links {
     color: #000000;
+}
+
+.links {
+    background-color: #fff;
 }
 
 /*=================== footer =========================*/
