@@ -24,24 +24,45 @@
     <script type="application/ld+json">
 {
 	"@context": "https://schema.org/",
-    "@type": ["Product", "FAQPage"],
+    "@type": ["Product", "FAQPage", "ContactPoint", "PostalAddress"],
 	"name": "Запустить двигатель прикурить автомобиль Казань от 350р",
 	"description": "+7-987-211-96-54 Прикурить авто запустить автомобиль завeсти аккумулятор пуск 
     профессиональным пусковым оборудованием без скрытых доплат аккуратнов качecтвенно oперативнo чeтко быстрo в Казани.",
+    "brand": {
+        "@type": "Brand",
+        "name": "carcu"
+    },
     "image": "https://kzn-start.infinityfreeapp.com/assets/img/lightcar.png",
     "url": "https://kzn-start.infinityfreeapp.com",
+    "addressLocality": "Казань",
+    "email": " kazan_avtozapchasti@mail.ru",
+    "telephone": "+7-987-211-96-54",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "5"
+    },
 	"offers": {
 		"@type": "AggregateOffer",
 		"priceCurrency": "RUB",
 		"highPrice": "350",
-        "lowPrice": "1500"
+        "lowPrice": "1500",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "RU",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+        },
+        "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": "http://schema.org/True",
+          	"shippingDestination": {
+    			"@type": "DefinedRegion",
+    			"addressCountry": "RU"
+  			}
+        },
+         "offerCount": 1
 	},
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Казань"
-    },
-    "email": " kazan_avtozapchasti@mail.ru",
-    "telephone": "+7-987-211-96-54",
     "mainEntity": [
     {
             "@type": "Question",
